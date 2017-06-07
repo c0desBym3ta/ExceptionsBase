@@ -5,7 +5,9 @@ CMakeFiles/ExceptionsBase.dir/GameMap.cpp.o: ../GameMap.cpp
 CMakeFiles/ExceptionsBase.dir/GameMap.cpp.o: ../GameMap.h
 CMakeFiles/ExceptionsBase.dir/GameMap.cpp.o: ../missing_file_exception.h
 
+CMakeFiles/ExceptionsBase.dir/main.cpp.o: ../GameMap.h
 CMakeFiles/ExceptionsBase.dir/main.cpp.o: ../main.cpp
+CMakeFiles/ExceptionsBase.dir/main.cpp.o: ../missing_file_exception.h
 
 CMakeFiles/ExceptionsBase.dir/missing_file_exception.cpp.o: ../missing_file_exception.cpp
 CMakeFiles/ExceptionsBase.dir/missing_file_exception.cpp.o: ../missing_file_exception.h

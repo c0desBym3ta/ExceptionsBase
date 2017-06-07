@@ -25,6 +25,12 @@ iostream
 -
 string
 -
+stdexcept
+-
+missing_file_exception.h
+/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/missing_file_exception.h
+GameMap.h
+/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/GameMap.h
 
 /home/s3th/Documents/Projects/Exceptions/ExceptionsBase/missing_file_exception.cpp
 missing_file_exception.h
