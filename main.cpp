@@ -10,8 +10,25 @@ missing_file_exception);
 void displaySplash();
 
 int main() {
+	try{
+		displaySplash();
+		GameMap startMap;
+		startMap.loadMapFile("intro.map");
+		startMap.draw();
+        //Ok guys i think no comments this lines no ?
+	}catch (missing_file_exception &e){
+		e.printError();
+		if(e.isFatal()){
+			std::cerr << "Missing importand files. Must stop execution" << std::endl;
+			std::exit(-1); //Setting a number to be easier to identify our error..
+		}
+	}catch (std::runtime_error &e){
+		std::cerr << "Reinstalling the game." << std::endl;
+		std::cerr << e.what() << std::endl;
+	}
+	std::cout <<"\nLoading game characters bitmaps..." << std::endl;
 
-    return 0;
+	return 0;
 }
 
 
@@ -40,7 +57,7 @@ void displaySplash(){
 		//....displaying it....
 	
 		//Stop the display.
-	}catch(missing_file_exception &e){
+	}catch(missing_file_exception &e){ //Making reference to the exception itself.
 		//..logging our error.....
 	}
 }
