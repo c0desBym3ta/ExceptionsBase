@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/GameMap.cpp
+GameMap.h
+/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/GameMap.h
+
+/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/GameMap.h
+iostream
+-
+string
+-
+stdexcept
+-
+missing_file_exception.h
+/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/missing_file_exception.h
+
+/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/main.cpp
+iostream
+-
+string
+-
+
+/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/missing_file_exception.cpp
+missing_file_exception.h
+/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/missing_file_exception.h
+
+/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/missing_file_exception.h
+iostream
+-
+string
+-
+stdexcept
+-
+
