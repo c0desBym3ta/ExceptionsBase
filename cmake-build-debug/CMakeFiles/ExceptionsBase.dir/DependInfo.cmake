@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/s3th/Documents/examples/ExceptionsBase/GameMap.cpp" "/home/s3th/Documents/examples/ExceptionsBase/cmake-build-debug/CMakeFiles/ExceptionsBase.dir/GameMap.cpp.o"
-  "/home/s3th/Documents/examples/ExceptionsBase/main.cpp" "/home/s3th/Documents/examples/ExceptionsBase/cmake-build-debug/CMakeFiles/ExceptionsBase.dir/main.cpp.o"
-  "/home/s3th/Documents/examples/ExceptionsBase/missing_file_exception.cpp" "/home/s3th/Documents/examples/ExceptionsBase/cmake-build-debug/CMakeFiles/ExceptionsBase.dir/missing_file_exception.cpp.o"
+  "/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/GameMap.cpp" "/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/cmake-build-debug/CMakeFiles/ExceptionsBase.dir/GameMap.cpp.o"
+  "/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/main.cpp" "/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/cmake-build-debug/CMakeFiles/ExceptionsBase.dir/main.cpp.o"
+  "/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/missing_file_exception.cpp" "/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/cmake-build-debug/CMakeFiles/ExceptionsBase.dir/missing_file_exception.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

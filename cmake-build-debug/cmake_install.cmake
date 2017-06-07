@@ -1,4 +1,4 @@
-# Install script for directory: /home/s3th/Documents/examples/ExceptionsBase
+# Install script for directory: /home/s3th/Documents/Projects/Exceptions/ExceptionsBase
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/s3th/Documents/examples/ExceptionsBase/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/s3th/Documents/Projects/Exceptions/ExceptionsBase/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
