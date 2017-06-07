@@ -1,0 +1,14 @@
+//
+// Created by s3th on 6/7/17.
+//
+
+#ifndef EXCEPTIONSBASE_MISSING_FILE_EXCEPTION_H
+#define EXCEPTIONSBASE_MISSING_FILE_EXCEPTION_H
+
+
+class missing_file_exception {
+
+};
+
+
+#endif //EXCEPTIONSBASE_MISSING_FILE_EXCEPTION_H
